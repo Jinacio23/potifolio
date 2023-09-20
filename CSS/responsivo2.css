@@ -1,0 +1,53 @@
+/* CSS responsivo dos projetos */
+
+@media (max-width:640px) {
+    .menu{
+        margin: 40px;
+    }
+}
+
+@media (max-width:550px) {
+    .menu li a{
+        font-size: 16px;
+    }
+    .menu li a:hover {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 411px) {
+    main{
+        width: 100%;
+        margin: 45px auto 0;
+    }
+
+    .projeto{
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    main{
+        margin: 30px auto 0;
+    } 
+
+    .projeto{
+        width: 165px;
+        height: 165px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    main{
+        margin: 30px auto 0;
+        gap: 15px;
+    } 
+
+    .projeto{
+        width: 157px;
+        height: 157px;
+    }
+}

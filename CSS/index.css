@@ -1,0 +1,181 @@
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    display: block;
+    height: 100%;
+    padding: 15px;
+    transition: background-color 0.8s;
+}
+
+.menu li a:hover{
+    background-color: #585858;
+    font-size: 22px;
+}
+
+.intro{
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding-left: 100px;
+    padding-top: 70px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.nome{
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    text-shadow: 5px 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+.cargo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.complemento{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.descricao {
+    width: 98%;
+    max-height: 320px;
+    background-color: #e2e2e2;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    box-shadow: 0 5px 3px #e2e2e2, 0 -5px 3px #e2e2e2;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+.sobre{
+    width: 45vw;
+    margin: 30px 40px;
+    font-weight: 600;
+}
+
+.titulo_sobre{
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.texto_sobre{
+
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 200;
+    max-height: 208px;
+    height: 100%;
+}
+
+.icons_1{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    height: 100%;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+}
+
+
+
+.html,.css,.js{
+    transition: width 1s, height 1s;
+}
+
+.html:hover,.css:hover,.js:hover{
+    width: 170px;
+    height: 170px;
+    z-index: 2;
+}
+
+
+.titulo_competencias{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+.card-skills{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.card{
+    background-color: #585858;
+    color: #fff;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.tipo-skill{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.skills li{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.rodape-inicio{
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.rodape-inicio a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rodape-inicio .footer-img {
+    width: 30px;
+    height: 30px;
+}
+

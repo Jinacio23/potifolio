@@ -1,0 +1,17 @@
+/* CSS responsivo dos contatos */
+
+@media (max-width:640px) {
+    .menu{
+        margin: 40px;
+    }
+}
+
+@media (max-width:550px) {
+    .menu li a{
+        font-size: 16px;
+    }
+    .menu li a:hover {
+        font-size: 18px;
+    }
+}
+

@@ -1,0 +1,265 @@
+/* CSS responsivo do index */
+
+@media (max-width: 1195px) {
+    .icons_1{
+        display: flex;
+        align-items: center;
+        position: relative;
+        /* border: 2px solid red; */
+        width: 35vw;
+        justify-content: space-between;
+    }
+    .css{
+        position: absolute;
+        margin: 0 calc((100% - 170px)/2);
+    }
+    .html, .js {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .texto_sobre{
+        width: 550px;
+    }
+    
+}
+
+@media (max-width: 1022px) {
+    .texto_sobre{
+        width: 550px;
+    }
+    
+    .descricao{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        max-height: 500px;
+    }
+
+    .icons_1{
+        width: 80vw;
+    }
+    .sobre{
+        margin: 10px 40px;
+    }
+}
+
+
+@media (max-width:850px) {
+    .descricao{
+        height: 65vh;
+        width: 90%;
+    }
+    .titulo_sobre{
+        font-size: 26px;
+    }
+    .texto_sobre{
+        width: 520px;
+        font-size: 16px;
+    }
+
+    .card-skills{
+        justify-content: space-around;
+        gap:25px;
+    }
+}
+
+@media (max-width:720px) {
+    .card-skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+    .tipo-skill{
+        text-align: start;
+    }
+    .skills li{
+        margin-top: 4px;
+    }
+    .rodape-inicio{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .rodape-inicio a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:640px) {
+    .menu{
+        margin: 40px;
+    }
+    .intro{
+        padding-left: 75px;
+    }
+    .sobre{
+        margin: 10px 20px;
+    }
+}
+
+@media (max-width:580px) {
+    .nome{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .cargo{
+        margin-top: 0;
+        font-size: 22px;
+    }
+    .complemento{
+        font: 18px;
+    }
+    .texto_sobre{
+        width: 450px;
+    }
+}
+
+@media (max-width:550px) {
+    .menu li a{
+        font-size: 16px;
+    }
+    .menu li a:hover {
+        font-size: 18px;
+    }
+    .nome{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .cargo{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .titulo_sobre{
+        font-size: 24px;
+    }
+    .texto_sobre{
+        font-size: 15px;
+        width: 400px;
+    }
+    .skills li{
+        font-size: 16px;
+    }
+     
+    .rodape-inicio{
+        font-size: 12px;
+    }
+    .rodape-inicio a{
+        font-size: 11px;
+    }
+    .rodape-inicio .footer-img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 411px) {
+    .intro{
+        padding-left: 40px;
+        padding-top: 140px;
+    }
+
+    .sobre{
+        margin: 30px 10px;
+    }
+    .texto_sobre{
+        width: 330px;
+    }
+
+    .descricao{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        max-height: 500px;
+    }
+
+    .icons_1{
+        width: 80vw;
+    }
+    .css{
+        width: 150px;
+        height: 150px;
+    }
+    .html, .js{
+        width: 130px;
+        height: 130px;
+    }
+    .html:hover, .js:hover{
+        width: 140px;
+        height: 140px;
+    }
+    .css:hover{
+        width: 155px;
+        height: 155px;
+    }
+
+    .card-skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+    .tipo-skill{
+        text-align: start;
+    }
+    .skills li{
+        margin-top: 4px;
+    }
+
+    .rodape-inicio{
+        font-size: 12px;
+    }
+    .rodape-inicio a{
+        font-size: 11px;
+    }
+    .rodape-inicio .footer-img{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    
+    .intro {
+        padding-left: 20px;
+        padding-top: 160px;
+    }
+
+    .sobre{
+        margin: 10px 5px;
+    }
+    .texto_sobre{
+        width: 310px;
+    }
+
+    .css{
+        width: 130px;
+        height: 130px;
+        margin: 0 calc((100% - 130px)/2);
+    }
+    .html, .js{
+        width: 120px;
+        height: 120px;
+    }
+    .html:hover, .js:hover{
+        width: 130px;
+        height: 130px;
+    }
+    .css:hover{
+        width: 140px;
+        height: 140px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .texto_sobre{
+        width: 300px;
+    }
+    .descricao{
+        height: 70vh;
+    }
+}

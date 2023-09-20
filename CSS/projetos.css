@@ -1,0 +1,68 @@
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    display: block;
+    height: 100%;
+    padding: 15px;
+    transition: background-color 0.8s;
+}
+
+.menu li a:hover{
+    background-color: #585858;
+    font-size: 22px;
+}
+
+main{
+    margin: 100px auto 0;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto{
+    background-color: #585858;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.projeto a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    background-color: #ccc;
+    height: 50px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.projeto a .projeto_vazio{
+    font-weight: 800;
+    width: 85px;
+    height: 46px;
+    margin-left: 45px;
+    font-size: 16px;
+}
