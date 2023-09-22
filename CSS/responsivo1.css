@@ -100,23 +100,6 @@
     }
 }
 
-@media (max-width:580px) {
-    .nome{
-        font-size: 45px;
-        line-height: 55px;
-    }
-    .cargo{
-        margin-top: 0;
-        font-size: 22px;
-    }
-    .complemento{
-        font: 18px;
-    }
-    .texto_sobre{
-        width: 450px;
-    }
-}
-
 @media (max-width:550px) {
     .menu li a{
         font-size: 16px;
@@ -131,6 +114,9 @@
     .cargo{
         font-size: 20px;
         margin-top: 10px;
+    }
+    .complemento{
+        font: 18px;
     }
     .titulo_sobre{
         font-size: 24px;
@@ -155,7 +141,7 @@
     }
 }
 
-@media (max-width: 411px) {
+@media (max-width: 420px) {
     .intro{
         padding-left: 40px;
         padding-top: 140px;
