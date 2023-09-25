@@ -66,3 +66,28 @@ main{
     margin-left: 45px;
     font-size: 16px;
 }
+
+.projeto.cheio a{
+    height: 140px;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projeto.cheio .titulo{
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
