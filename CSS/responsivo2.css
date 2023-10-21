@@ -8,10 +8,10 @@
 
 @media (max-width:550px) {
     .menu li a{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .menu li a:hover {
-        font-size: 18px;
+        font-size: 1.56rem;
     }
 }
 

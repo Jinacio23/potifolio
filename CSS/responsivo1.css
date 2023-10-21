@@ -1,11 +1,10 @@
 /* CSS responsivo do index */
 
-@media (max-width: 1195px) {
+@media (max-width: 1200px) {
     .icons_1{
         display: flex;
         align-items: center;
         position: relative;
-        /* border: 2px solid red; */
         width: 35vw;
         justify-content: space-between;
     }
@@ -19,16 +18,9 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .texto_sobre{
-        width: 550px;
-    }
-    
-}
-
-@media (max-width: 1022px) {
-    .texto_sobre{
-        width: 550px;
+@media (max-width: 1000px) { 
+    .sobre{
+        width: 90%;
     }
     
     .descricao{
@@ -46,18 +38,7 @@
 }
 
 
-@media (max-width:850px) {
-    .descricao{
-        height: 65vh;
-        width: 90%;
-    }
-    .titulo_sobre{
-        font-size: 26px;
-    }
-    .texto_sobre{
-        width: 520px;
-        font-size: 16px;
-    }
+@media (max-width:768px) { 
 
     .card-skills{
         justify-content: space-around;
@@ -66,6 +47,16 @@
 }
 
 @media (max-width:720px) {
+    .menu{
+        margin: 40px;
+    }
+    .intro{
+        padding-left: 5vw;
+    }
+    .sobre{
+        margin: 10px 20px 20px;
+    }
+
     .card-skills{
         flex-direction: column;
         align-items: center;
@@ -81,91 +72,35 @@
     }
     .rodape-inicio{
         margin-top: 30px;
-        font-size: 16px;
-    }
-    .rodape-inicio a{
-        font-size: 15px;
     }
 }
 
-@media (max-width:640px) {
-    .menu{
-        margin: 40px;
-    }
-    .intro{
-        padding-left: 75px;
-    }
-    .sobre{
-        margin: 10px 20px;
-    }
-}
 
 @media (max-width:550px) {
-    .menu li a{
-        font-size: 16px;
-    }
-    .menu li a:hover {
-        font-size: 18px;
-    }
     .nome{
-        font-size: 40px;
-        line-height: 45px;
-    }
-    .cargo{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .complemento{
-        font: 18px;
+        font-size: 3.12rem;
+        line-height: 55px;
     }
     .titulo_sobre{
-        font-size: 24px;
+        font-size: 2.18rem;
     }
     .texto_sobre{
-        font-size: 15px;
-        width: 400px;
+        font-size: 1.12rem;
     }
-    .skills li{
-        font-size: 16px;
-    }
-     
-    .rodape-inicio{
-        font-size: 12px;
-    }
-    .rodape-inicio a{
-        font-size: 11px;
-    }
+
     .rodape-inicio .footer-img{
         width: 20px;
         height: 20px;
     }
 }
 
-@media (max-width: 420px) {
-    .intro{
-        padding-left: 40px;
-        padding-top: 140px;
-    }
+@media (max-width: 480px) {
+    /*Menu de hamburguer - animation*/
 
-    .sobre{
-        margin: 30px 10px;
-    }
-    .texto_sobre{
-        width: 330px;
-    }
-
-    .descricao{
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        max-height: 500px;
-    }
-
-    .icons_1{
-        width: 80vw;
-    }
     .css{
         width: 150px;
         height: 150px;
+        margin: 0 calc((100% - 160px)/2);
     }
     .html, .js{
         width: 130px;
@@ -180,45 +115,28 @@
         height: 155px;
     }
 
-    .card-skills{
-        flex-direction: column;
-        align-items: center;
+    .sobre{
+        margin-bottom: 30px;
     }
-    .card{
-        width: 90%;
+    .titulo_sobre{
+        font-size: 30px;
     }
-    .tipo-skill{
-        text-align: start;
-    }
-    .skills li{
-        margin-top: 4px;
+    .texto_sobre{
+        font-size: 16px;
     }
 
     .rodape-inicio{
-        font-size: 12px;
+        gap: 1.5%;
     }
-    .rodape-inicio a{
-        font-size: 11px;
-    }
-    .rodape-inicio .footer-img{
-        width: 20px;
-        height: 20px;
-    }
+    .rodape-inicio p, span{
+        font-size: 0.9rem;
 
+    }
 }
 
-@media (max-width: 375px) {
-    
-    .intro {
-        padding-left: 20px;
-        padding-top: 160px;
-    }
-
-    .sobre{
-        margin: 10px 5px;
-    }
-    .texto_sobre{
-        width: 310px;
+@media (max-width: 360px) {
+    .nome{
+        font-size: 2.81rem;
     }
 
     .css{
@@ -238,14 +156,10 @@
         width: 140px;
         height: 140px;
     }
-
-}
-
-@media (max-width: 360px) {
-    .texto_sobre{
-        width: 300px;
-    }
     .descricao {
         height: 70vh;
+    }
+    .sobre{
+        margin-bottom: 50px;
     }
 }

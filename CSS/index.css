@@ -12,7 +12,7 @@ nav{
     list-style: none;
     display: flex;
     margin-right: 80px;
-    font-size: 20px;
+    font-size: 1.25rem;
     align-items: center;
 }
 
@@ -28,33 +28,34 @@ nav{
 
 .menu li a:hover{
     background-color: #585858;
-    font-size: 22px;
+    font-size: 1.37rem;
 }
 
 .intro{
     width: 100%;
     height: calc(100vh - 80px);
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top: 150px;
     color: #fff;
     margin-bottom: 8px;
 }
 
 .nome{
-    font-size: 68px;
+    font-size: 4.25rem;
     font-weight: 800;
     line-height: 75px;
     text-shadow: 5px 2px 4px rgba(255, 255, 255, 0.4);
 }
 
 .cargo{
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 600;
 }
 
 .complemento{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 8px;
+    word-wrap: break-word;
 }
 
 .descricao {
@@ -68,8 +69,7 @@ nav{
     padding-right: 20px;
     box-shadow: 0 5px 3px #e2e2e2, 0 -5px 3px #e2e2e2;
     border-radius: 10px;
-    margin: auto;
-    
+    margin: 10px auto 0;
 }
 
 .sobre{
@@ -79,23 +79,25 @@ nav{
 }
 
 .titulo_sobre{
-    font-size: 38px;
+    font-size: 2.37rem;
     margin-top: 5px;
 }
 
 .texto_sobre{
 
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 12px;
     font-weight: 200;
     max-height: 208px;
     height: 100%;
+    word-wrap: break-word;
+    width: 100%;
 }
 
 .icons_1{
-    /* border: 2px solid red; */
-    margin: 0 auto;
+    margin: 10px auto;
     height: 100%;
+    position: relative;
 }
 
 img{
@@ -119,7 +121,7 @@ img{
 .titulo_competencias{
     text-align: center;
     color: #fff;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: 50px 0;
 }
 
@@ -142,13 +144,13 @@ img{
 
 .tipo-skill{
     text-align: center;
-    font-size: 22px;
+    font-size: 1.37rem;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
 .skills li{
-    font-size: 18px;
+    font-size: 1.12rem;
     margin-top: 8px;
 }
 
@@ -157,7 +159,7 @@ img{
     width: 100%;
     height: 80px;
     background-color: #000;
-    font-size: 18px;
+    font-size: 1.12rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +169,7 @@ img{
 .rodape-inicio a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.12rem;
     text-transform: uppercase;
     display: flex;
     align-items: center;
