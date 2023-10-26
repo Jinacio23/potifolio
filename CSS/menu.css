@@ -1,0 +1,181 @@
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.openMenu{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: transparent;
+    right: calc((20vw - 55px));
+    cursor: pointer;
+}
+
+.openMenu div {
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+.line1 {
+    top: 0;
+    animation:  .8s;
+}
+.line2 {
+    top: 7px;
+    animation:  .8s;
+}
+.line3 {
+    top: 14px;
+    animation:  .8s;
+}
+
+@keyframes cima {
+    0% {
+        transform: rotate(0deg);
+        top: 0;
+    }
+    100% {    
+        transform: rotate(-45deg);
+        top: 7px;
+    }
+}
+
+@keyframes meio {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes baixo {
+    from {
+        top: 14px;
+        transform: rotate(0deg);
+    }
+    to {
+        top: 7px;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes Vcima {
+    0% {
+        transform: rotate(-45deg);
+        top: 7px;
+    }
+    100% {    
+        transform: rotate(0deg);
+        top: 0;
+    }
+}
+
+@keyframes Vmeio {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Vbaixo {
+    from {
+        top: 7px;
+        transform: rotate(45deg);
+    }
+    to {
+        top: 14px;
+        transform: rotate(0deg);
+    }
+} 
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    display: block;
+    width: 120px;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.8s;
+}
+
+.menu li a:hover{
+    background-color: #585858;
+    font-size: 1.37rem;
+}
+
+/*Responsivo*/
+
+@media (max-width: 480px) {
+    .openMenu{
+        display: block;
+        margin-right: 30px;
+    }
+
+    .menu{
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        right: -40vw;
+        width: 40vw;
+        height: calc(100% - 80px);
+        background-color: #000;
+        flex-direction: column;
+        font-size: 20px;
+        animation:  1s ;    
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hiddenBar {
+        0%{
+            transform: translateX(-40vw);
+            opacity: 1;
+            
+        }
+        100%{
+            transform: translateX(0vw);    
+            opacity: 0;    
+              
+        }
+    }
+    @keyframes showBar {
+        0%{
+            transform: translateX(0vw);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(-40vw);  
+            opacity: 1;          
+        }
+    }
+    
+    .menu li{
+        font-size: 18px;
+    }
+    .menu li a:hover{
+        font-size: 20px;
+    }
+}

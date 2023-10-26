@@ -95,7 +95,9 @@
 }
 
 @media (max-width: 480px) {
-    /*Menu de hamburguer - animation*/
+    .menu{
+        margin: 0;
+    }
 
     .css{
         width: 150px;
