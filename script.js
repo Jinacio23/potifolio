@@ -1,17 +1,36 @@
+let abas = document.querySelectorAll('.aba')
 let animation = "on";
 
-function navBar() { 
+
+function navBar() {
+
+    // if (animation == "on") {
+    //     abas.style.animationName = 'links'
+    //     animation = "off"
+    // } else if (animation == "off") {
+    //     abas.style.animationName = 'Vlinks'
+    //     animation = "on"
+    // }
+
     if (animation == "on") {
-    document.querySelector('.line1').style.animationName = 'cima'
-    document.querySelector('.line2').style.animationName = 'meio'
-    document.querySelector('.line3').style.animationName = 'baixo'
-    document.querySelector('.menu').style.animationName = 'showBar'
-    animation = "off"
+        document.querySelector('.line1').style.animationName = 'cima'
+        document.querySelector('.line2').style.animationName = 'meio'
+        document.querySelector('.line3').style.animationName = 'baixo'
+        document.querySelector('.menu').style.animationName = 'showBar'
+        document.querySelector('.aba1').style.animationName = 'links'
+        document.querySelector('.aba2').style.animationName = 'links'
+        document.querySelector('.aba3').style.animationName = 'links'
+        animation = "off"
+        
     } else if (animation == "off") {
-    document.querySelector('.line1').style.animationName = 'Vcima'
-    document.querySelector('.line2').style.animationName = 'Vmeio'
-    document.querySelector('.line3').style.animationName = 'Vbaixo'
-    document.querySelector('.menu').style.animationName = 'hiddenBar'
-    animation = "on"
+        document.querySelector('.line1').style.animationName = 'Vcima'
+        document.querySelector('.line2').style.animationName = 'Vmeio'
+        document.querySelector('.line3').style.animationName = 'Vbaixo'
+        document.querySelector('.menu').style.animationName = 'hiddenBar'
+        document.querySelector('.aba1').style.animationName = 'Vlinks'
+        document.querySelector('.aba2').style.animationName = 'Vlinks'
+        document.querySelector('.aba3').style.animationName = 'Vlinks'
+        animation = "on"
     }
+
 };

@@ -139,7 +139,6 @@ nav{
         position: absolute;
         margin: 0;
         bottom: 0;
-        right: -40vw;
         width: 40vw;
         height: calc(100% - 80px);
         background-color: #000;
@@ -147,27 +146,26 @@ nav{
         font-size: 20px;
         animation:  1s ;    
         animation-fill-mode: forwards;
+        overflow-x: hidden;
     }
 
     @keyframes hiddenBar {
         0%{
-            transform: translateX(-40vw);
+            width: 40vw;
             opacity: 1;
-            
         }
         100%{
-            transform: translateX(0vw);    
+            width: 0vw;
             opacity: 0;    
-              
         }
     }
     @keyframes showBar {
         0%{
-            transform: translateX(0vw);
+            width: 0vw;
             opacity: 0;
         }
         100%{
-            transform: translateX(-40vw);  
+            width: 40vw;
             opacity: 1;          
         }
     }
@@ -175,7 +173,34 @@ nav{
     .menu li{
         font-size: 18px;
     }
+
+    .aba1,.aba2,.aba3{
+        animation: 1s;
+    }
+
     .menu li a:hover{
         font-size: 20px;
     }
+
+    @keyframes links {
+        0%{
+            transform: translateX(50px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes Vlinks {
+        0%{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+        100%{
+            transform: translateX(50px);
+            opacity: 0;
+        }
+    }
+    
 }
