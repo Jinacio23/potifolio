@@ -139,7 +139,7 @@ nav{
         position: absolute;
         margin: 0;
         bottom: 0;
-        width: 40vw;
+        width: 0vw;
         height: calc(100% - 80px);
         background-color: #000;
         flex-direction: column;

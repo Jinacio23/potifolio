@@ -1,16 +1,6 @@
-let abas = document.querySelectorAll('.aba')
 let animation = "on";
 
-
 function navBar() {
-
-    // if (animation == "on") {
-    //     abas.style.animationName = 'links'
-    //     animation = "off"
-    // } else if (animation == "off") {
-    //     abas.style.animationName = 'Vlinks'
-    //     animation = "on"
-    // }
 
     if (animation == "on") {
         document.querySelector('.line1').style.animationName = 'cima'
