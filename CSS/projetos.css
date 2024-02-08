@@ -31,63 +31,105 @@ nav{
     font-size: 22px;
 }
 
-main{
-    margin: 100px auto 0;
-    width: 580px;
+header{
+    width: 100vw;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+header .titulo{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+header .opcoes{
+    margin: 0 auto;
+    max-width: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+header .opcoes .opcao{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.opcoes .opcao.op1{
+    border-bottom: 3px solid #fff;
+}
+.opcoes .opcao.op2{
+    border-bottom: 3px solid #fff;
+}
+
+main{
+    margin: 0 auto;
+    width: 50vw;
+}
+
+main .projeto{
+    height: 250px;
+    border-radius: 15px;
+    background-color: #aaa;
+    box-shadow: 2px 2px 5px #000;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.projeto .informacoes{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informacoes .descricao{
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.informacoes .links-e-techs{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
-.projeto{
-    background-color: #585858;
-    width: 180px;
-    height: 180px;
-    border-radius: 20px;
+/*icones de link*/
+.informacoes .links-e-techs .links{
+    display: flex;
+    gap: 10px;
 }
-
-.projeto a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    text-align: center;
-    background-color: #ccc;
-    height: 50px;
+.informacoes .links-e-techs .links>*{
+    list-style: none;
+    background-color: #fff;
+    aspect-ratio: 1;
+    height: 35px;
+    border-radius: 50%;  
+    overflow: hidden;  
+}
+.informacoes .links-e-techs .links>:nth-child(1) img{
+    width: 70%;
+    margin: 5px;
+}
+.informacoes .links-e-techs .links>:nth-child(2) img{
     width: 100%;
-    margin-top: 70px;
 }
 
-.projeto a .projeto_vazio{
-    font-weight: 800;
-    width: 85px;
-    height: 46px;
-    margin-left: 45px;
-    font-size: 16px;
+.informacoes .links-e-techs .techs{
+    display: flex;
+    gap: 10px;
 }
 
-.projeto.cheio a{
-    height: 140px;
-    margin: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.informacoes .links-e-techs .techs>*{
+    list-style: none;
+    font-size: 20px;
 }
 
-.projeto.cheio .titulo{
-    background-color: #000;
-    color: #fff;
-    height: 50px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-    padding-top: 16px;
-    font-size: 14px;
-}
-
-img{
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.projeto .img img{
+    width: auto;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }

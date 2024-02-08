@@ -1,4 +1,4 @@
-nav{
+nav {
     background-color: #000;
     width: 100%;
     height: 80px;
@@ -8,7 +8,7 @@ nav{
     align-items: center;
 }
 
-.menu{
+.menu {
     list-style: none;
     display: flex;
     margin-right: 80px;
@@ -16,7 +16,7 @@ nav{
     align-items: center;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     color: #fff;
     font-weight: 800;
@@ -26,44 +26,67 @@ nav{
     transition: background-color 0.8s;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     background-color: #585858;
     font-size: 22px;
 }
 
-.contatos{
-    width: 100%;
-    height: calc(100vh - 81px);
+main {
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #fff;
+    text-align: center;
+}
+
+.texto>* {
+    font-size: 30px;
+}
+
+.contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    margin-top: 20px;
+    font-size: 25px;
+    gap: 8px;
 }
 
-.titulo_contato{
-    font-size: 30px;
-    margin-bottom: 15px;
+.contato img {
+    aspect-ratio: 1;
+    height: 40px;
+    border-radius: 10px;
 }
 
-.icons{
+footer {
+    background-color: #000;
+    height: 80px;
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
-.icon {
-    background-color: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 16px;
+footer .icons{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+footer img {
+    aspect-ratio: 1;
+    height: 45px;
+}
+footer .icons:nth-child(1){
+ background-color: #fff;
+ aspect-ratio: 1;
+ height: 45px;
+ border-radius: 15px;
 }
 
-img{
-    width: 60px;
-    border-radius: 8px;
-    transition: width 0.8s;
-}
-
-img:hover{
-    width: 64px;
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
