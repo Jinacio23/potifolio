@@ -127,9 +127,22 @@ main .projeto{
     font-size: 20px;
 }
 
+.projeto .img{
+    overflow: hidden;
+    min-width: 285px;
+    /* border: 2px solid red; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
 .projeto .img img{
     width: auto;
     height: 100%;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+}
+.projeto .img .netflix{
+    margin-left: -34px;
+    transform: scale(0.9);
 }

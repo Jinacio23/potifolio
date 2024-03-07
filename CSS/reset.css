@@ -12,3 +12,13 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.menu .aba3 a{
+    font-size: 25px;
+    max-width: 80px;
+}
+
+.menu .aba3 a:hover{
+    background-color: #585858;
+    font-size: 1.8rem;
+}
